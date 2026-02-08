@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Novel Idea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>NOVEL IDEA</h1>
+                <p class="tagline">Fiction and non-fiction since 1988</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalog.html">CATALOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="community.html">COMMUNITY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with Novel Idea Bookstore</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    
+                    <div class="info-block">
+                        <h3>📍 Visit Us</h3>
+                        <p>156 Princess Street<br>Kingston, ON K7L 1B1</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>📞 Call Us</h3>
+                        <p>613-546-9799</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>✉️ Email</h3>
+                        <p><a href="mailto:novid@kingston.net">novid@kingston.net</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>🕒 Hours</h3>
+                        <p><strong>Monday - Friday:</strong> 10am - 6pm<br>
+                           <strong>Saturday:</strong> 10am - 4pm<br>
+                           <strong>Sunday:</strong> Closed</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>🚗 Parking</h3>
+                        <p>"Pay and display" street parking & nearby parking garages</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>📦 Special Orders</h3>
+                        <p>Special orders usually arrive within <strong>5-7 business days</strong>. We'll contact you when your book arrives.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="book-request">Book Request / Special Order</option>
+                                <option value="event-inquiry">Event Inquiry</option>
+                                <option value="consignment">Consignment Question</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <p class="form-note">We'll respond to your inquiry using the email or phone number you provide. There is no extra charge for special orders. Special orders usually arrive at our store within 5-7 business days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Novel Idea</h4>
+                    <p>Kingston's independent bookstore since 1988</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/novelideabookstore" target="_blank">Facebook</a>
+                        <a href="https://twitter.com/novelidaygk" target="_blank">Twitter</a>
+                        <a href="https://instagram.com/novelideakingston" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Novel Idea Bookstore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

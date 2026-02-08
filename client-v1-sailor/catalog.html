@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - Novel Idea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>NOVEL IDEA</h1>
+                <p class="tagline">Fiction and non-fiction since 1988</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalog.html">CATALOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="community.html">COMMUNITY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Catalog</h1>
+            <p>Explore our curated collection of fiction and non-fiction titles</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <label for="category-filter">Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="mystery">Mystery & Thriller</option>
+                    <option value="romance">Romance</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Grid -->
+    <section class="catalog">
+        <div class="container">
+            <div class="books-grid">
+                <!-- Fiction -->
+                <div class="book-card" data-category="fiction">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>The Midnight Library</h3>
+                    <p class="author">Matt Haig</p>
+                    <p class="category">Fiction</p>
+                    <p class="price">$19.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="fiction">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Lessons in Chemistry</h3>
+                    <p class="author">Bonnie Garmus</p>
+                    <p class="category">Fiction</p>
+                    <p class="price">$18.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="mystery">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>The Thursday Murder Club</h3>
+                    <p class="author">Richard Osman</p>
+                    <p class="category">Mystery & Thriller</p>
+                    <p class="price">$17.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="romance">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <h3>Book Lovers</h3>
+                    <p class="author">Emily Henry</p>
+                    <p class="category">Romance</p>
+                    <p class="price">$16.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="non-fiction">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <h3>Atomic Habits</h3>
+                    <p class="author">James Clear</p>
+                    <p class="category">Non-Fiction</p>
+                    <p class="price">$18.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="non-fiction">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);"></div>
+                    <h3>Educated</h3>
+                    <p class="author">Tara Westover</p>
+                    <p class="category">Non-Fiction</p>
+                    <p class="price">$17.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="fiction">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #2af598 0%, #009efd 100%);"></div>
+                    <h3>Remarkably Bright</h3>
+                    <p class="author">Kate Forster</p>
+                    <p class="category">Fiction</p>
+                    <p class="price">$16.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+
+                <div class="book-card" data-category="mystery">
+                    <div class="book-cover" style="background: linear-gradient(135deg, #ff6b9d 0%, #c06c84 100%);"></div>
+                    <h3>The Friday Afternoon Club</h3>
+                    <p class="author">Helen Lederer</p>
+                    <p class="category">Mystery & Thriller</p>
+                    <p class="price">$15.99</p>
+                    <button class="btn btn-secondary">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Looking for Something Specific?</h2>
+            <p>Can't find a title? Request a special order and we'll source it for you.</p>
+            <a href="contact.html" class="btn btn-primary">Make a Request</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Novel Idea</h4>
+                    <p>Kingston's independent bookstore since 1988</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/novelideabookstore" target="_blank">Facebook</a>
+                        <a href="https://twitter.com/novelidaygk" target="_blank">Twitter</a>
+                        <a href="https://instagram.com/novelideakingston" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Novel Idea Bookstore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="catalog.js"></script>
+</body>
+</html>
